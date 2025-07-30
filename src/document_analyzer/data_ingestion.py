@@ -69,15 +69,15 @@ if __name__ == "__main__":
     from pathlib import Path
     from io import BytesIO
     
-    pdf_path=r"C:\\Users\\sunny\\document_portal\\data\\document_analysis\\sample.pdf"
-    class DummnyFile:
+    pdf_path=r"C:\\Users\\sunit\\OneDrive\\Desktop\\LLMOPs_Projects\\Document_portal\\data\\document_analysis\\NIPS-2017-attention-is-all-you-need-Paper.pdf"
+    class DummyFile:
         def __init__(self,file_path):
             self.name = Path(file_path).name
             self._file_path = file_path
         def getbuffer(self):
             return open(self._file_path, "rb").read()
         
-    dummy_pdf = DummnyFile(pdf_path)
+    dummy_pdf = DummyFile(pdf_path)
     
     handler = DocumentHandler()
     
