@@ -4,7 +4,7 @@ from src.document_analyzer.data_ingestion import DocumentHandler       # Your PD
 from src.document_analyzer.data_analysis import DocumentAnalyzer  # Your DocumentAnalyzer class
 
 # Path to the PDF you want to test
-PDF_PATH = r"C:\\Users\\sunny\\document_portal\\data\\document_analysis\\sample.pdf"
+PDF_PATH=r"C:\\Users\\sunit\\OneDrive\\Desktop\\LLMOPs_Projects\\Document_portal\\data\\document_analysis\\sample.pdf"
 
 # Dummy file wrapper to simulate uploaded file (Streamlit style)
 class DummyFile:
